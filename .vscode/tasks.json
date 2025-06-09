@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "Live Preview",
+			"workspacePath": "d:\\amazon clone",
+			"problemMatcher": [],
+			"label": "Live Preview: Run Server"
+		}
+	],
+	"inputs": [
+		{
+			"id": "livePreviewPath",
+			"type": "command",
+			"command": "vscode.openFolder",
+			"args": {
+				"uri": "d:\\amazon clone"
+			}
+		}
+	]
+}
